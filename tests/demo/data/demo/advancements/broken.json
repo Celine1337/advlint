@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "x": {}
+  },
+  "requirements": [
+    [
+      "x"
+    ],
+    [
+      "nope"
+    ]
+  ],
+  "rewards": {
+    "experience": -5
+  }
+}

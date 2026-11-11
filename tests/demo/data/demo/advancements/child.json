@@ -1,0 +1,29 @@
+{
+  "parent": "demo:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": {
+      "text": "Getting Diamonds"
+    },
+    "description": {
+      "text": "Mine a diamond"
+    },
+    "frame": "epic",
+    "show_toast": "yes"
+  },
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed"
+    },
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}
